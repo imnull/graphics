@@ -1,6 +1,6 @@
-import { TPoint } from './src/libs/ts/point'
-import { polyIncludes } from './src/libs/ts//poly'
-import { cross } from './src/libs/ts//segment'
+import { TPoint } from './libs/ts/point'
+import { polyIncludes } from './libs/ts/poly'
+import { cross } from './libs/ts/segment'
 
 const points = [[0,2],[2,0],[0,0],[2,2]] as TPoint[]
 
