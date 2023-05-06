@@ -2,3 +2,5 @@ node_modules
 dist
 src/libs/rust/target
 src/libs/rust/Cargo.lock
+src/libs/rust/pkg
+.DS_Store
