@@ -45,7 +45,7 @@ export const polyIncludes = (p: TPoint, a: TPoint, b: TPoint, c: TPoint, ...ps: 
             cross_points.push(c)
         }
     }
-    console.log(11111, cross_points)
+    // console.log(11111, cross_points)
     return cross_points.length % 2 === 1
 }
 

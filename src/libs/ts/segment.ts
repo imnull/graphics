@@ -34,14 +34,6 @@ const quickCheckPointInSegment = (a: TPoint, b: TPoint, c: TPoint) => {
     return Math.sign(x0) === Math.sign(x1) && Math.sign(y0) === Math.sign(y1)
 }
 
-/**
- * 
- * @param a0 
- * @param b0 
- * @param a1 
- * @param b1 
- * @returns 
- */
 export const cross = (a0: TPoint, b0: TPoint, a1: TPoint, b1: TPoint): TPoint | false => {
     const p2 = PointSubstract(a0, b0)
     const p3 = PointSubstract(a1, b1)
